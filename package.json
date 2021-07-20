@@ -1,0 +1,14 @@
+{
+  "name": "tnyclpanel",
+  "version": "1.0.0",
+  "description": "TNYCL Desktop Admin Panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "TNYCL",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^13.1.7"
+  }
+}

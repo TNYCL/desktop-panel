@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    -webkit-user-select: none;
+    color: #dddddd;
+    font-family: 'Lato', sans-serif;
+}
+
+.topBar {
+    width: 100%;
+    height: 30px;
+    background-color: #1d1d1d;
+}
+
+.topBar > .appDrag {
+    width: 90%;
+    height: 30px;
+    margin-top: -30px;
+    -webkit-app-region: drag
+}
+
+.topBar > .titleBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleBar > .titleImage {
+    width: 23px;
+    height: 23px;
+    padding: 3px;
+    margin-top: 1px;
+    margin-left: 1.5px;
+}
+
+.titleBar > .title {
+    font-size: 19px;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.titleControlButton {
+    list-style: none;
+    display: block;
+    background-color: white;
+}
+
+.titleControlButton > .button {
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+
+.button > .icons {
+    width: 20px;
+    height: 20px;
+}
+
