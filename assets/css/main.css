@@ -33,6 +33,7 @@ html, body {
     padding: 5px;
     margin-top: 1px;
     margin-left: 1.5px;
+    image-rendering: -moz-crisp-edges;
 }
 
 .titleBar > .title {
