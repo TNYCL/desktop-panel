@@ -45,6 +45,7 @@ html, body {
     list-style: none;
     display: block;
     background-color: white;
+    margin-top: -15px;
 }
 
 .titleControlButton > .button {

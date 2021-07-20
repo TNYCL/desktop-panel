@@ -26,15 +26,19 @@ function createWindow(html) {
         },
         frame: false
     });
-    page.webContents.openDevTools();
+    //page.webContents.openDevTools();
     page.setTitle('TNYCL');
     page.setIcon(__dirname + '/assets/attachments/title_icon.png');
     page.loadFile(html + '.html');
+    setIpc();
+}
+
+function setIpc() {
     ipcMain.on('minimize', () => {
         page.minimize();
     });
     ipcMain.on('maximize', () => {
-        page.maximize();
+        if(page.isMaximized()) page.unmaximize(); else page.maximize();
     });
     ipcMain.on('close', () => {
         page.close();
