@@ -28,9 +28,9 @@ html, body {
 }
 
 .titleBar > .titleImage {
-    width: 23px;
-    height: 23px;
-    padding: 3px;
+    width: 18px;
+    height: 18px;
+    padding: 5px;
     margin-top: 1px;
     margin-left: 1.5px;
 }
@@ -44,18 +44,32 @@ html, body {
 .titleControlButton {
     list-style: none;
     display: block;
-    background-color: white;
-    margin-top: -15px;
+    margin-top: -30px;
+    float: right;
+    width: 150px;
+    height: 30px;
 }
 
 .titleControlButton > .button {
     display: inline;
     float: right;
     padding: 5px;
+    padding-left: 15px;
+    height: 20px;
+    text-align: center;
+}
+
+.titleControlButton > .button:hover {
+    background-color: #1111117c;
+}
+
+.titleControlButton > .close:hover {
+    background-color: #d61425;
 }
 
 .button > .icons {
-    width: 20px;
-    height: 20px;
+    margin-right: 10.5px;
+    width: 12px;
+    height: 12px;
 }
 
